@@ -1,8 +1,6 @@
-# 🕉️ The Divine Gita
-
 A beautifully crafted, interactive digital sanctuary exploring the sacred teachings of the Bhagavad Gita. This project was built to bring timeless spiritual wisdom into a modern, accessible web experience.
 
-**[🌟 Live Demo: View the Website Here](https://ais-pre-bpywicrxmozkimwslqm4yi-661897303704.asia-east1.run.app)**
+**[🌟 Live Demo: View the Website:https://6a6782c0f0a3058672bbcbe8--coruscating-piroshki-725bd8.netlify.app/**
 
 ## ✨ Features
 - **Chapter Exploration**: Browse all 18 chapters with their summaries and insights.
@@ -25,4 +23,14 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/divine-gita.git
+   git clone https://github.com/yourusername/DivineGita.git
+Install dependencies:
+code
+Bash
+npm install
+Start the development server:
+code
+Bash
+npm run dev
+📜 Acknowledgements
+This project was developed as a task for the Inamigos Foundation internship.
