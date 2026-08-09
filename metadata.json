@@ -1,0 +1,6 @@
+{
+  "name": "The Divine Gita",
+  "description": "Explore the sacred teachings of the Bhagavad Gita, featuring all 18 chapters, spiritual insights, and divine guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
