@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🕉️ The Divine Gita
 
-# Run and deploy your AI Studio app
+A beautifully crafted, interactive digital sanctuary exploring the sacred teachings of the Bhagavad Gita. This project was built to bring timeless spiritual wisdom into a modern, accessible web experience.
 
-This contains everything you need to run your app locally.
+**[🌟 Live Demo: View the Website Here](https://ais-pre-bpywicrxmozkimwslqm4yi-661897303704.asia-east1.run.app)**
 
-View your app in AI Studio: https://ai.studio/apps/8d5250ee-c362-4dbb-9f6f-c57e6a3ca99d
+## ✨ Features
+- **Chapter Exploration**: Browse all 18 chapters with their summaries and insights.
+- **Sacred Verses**: Read individual Shlokas with Sanskrit text, transliteration, English translation, and deep meanings.
+- **Verse of the Day**: A dynamically selected verse to inspire your daily journey.
+- **Divine Artwork**: Beautifully integrated visual artwork of Lord Krishna and Arjuna, featuring the battlefield of Kurukshetra and cosmic universal forms.
+- **Fluid Animations**: Smooth page transitions and interactive elements powered by Framer Motion.
+- **Responsive Design**: A seamless experience across desktop, tablet, and mobile devices.
 
-## Run Locally
+## 🛠️ Tech Stack
+- **Frontend**: React (Vite), TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
 
+To run this project locally:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/divine-gita.git
