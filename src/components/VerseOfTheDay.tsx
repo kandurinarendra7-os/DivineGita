@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Sparkles, Sun } from 'lucide-react';
 import { featuredShlokas } from '../data/gita';
 import { Shloka } from '../types';
+import { ReadAloudControl } from './ReadAloudControl';
 
 export const VerseOfTheDay = () => {
   const [verse, setVerse] = useState<Shloka | null>(null);
@@ -14,6 +15,8 @@ export const VerseOfTheDay = () => {
   }, []);
 
   if (!verse) return null;
+
+  const speechText = `${verse.sanskrit.replace(/\n/g, ' ')}. Translation: ${verse.translation}`;
 
   return (
     <motion.div 
@@ -43,9 +46,13 @@ export const VerseOfTheDay = () => {
         
         <div className="w-24 h-px bg-amber-500/30 mb-8" />
         
-        <p className="text-amber-200/90 italic text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
+        <p className="text-amber-200/90 italic text-lg md:text-xl mb-8 max-w-2xl leading-relaxed">
           "{verse.translation}"
         </p>
+
+        <div className="mb-8">
+          <ReadAloudControl text={speechText} label="Listen to Shloka" />
+        </div>
         
         <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-amber-950 border border-amber-800 text-sm font-medium text-amber-300 shadow-inner">
           <BookOpenIcon className="w-4 h-4" />
